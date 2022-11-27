@@ -1,0 +1,23 @@
+- DOCUMENT@0..39
+    - OBJECT_TYPE_DEFINITION@0..39
+        - type_KW@0..4 "type"
+        - WHITESPACE@4..5 " "
+        - NAME@5..11
+            - IDENT@5..10 "Query"
+            - WHITESPACE@10..11 " "
+        - FIELDS_DEFINITION@11..39
+            - L_CURLY@11..12 "{"
+            - WHITESPACE@12..17 "\n    "
+            - FIELD_DEFINITION@17..38
+                - NAME@17..22
+                    - IDENT@17..22 "field"
+                - COLON@22..23 ":"
+                - WHITESPACE@23..24 " "
+                - NAMED_TYPE@24..37
+                    - COMMENT@24..33 "# comment"
+                    - WHITESPACE@33..34 "\n"
+                    - NAME@34..37
+                        - IDENT@34..37 "Int"
+                - WHITESPACE@37..38 " "
+            - R_CURLY@38..39 "}"
+recursion limit: 4096, high: 0
